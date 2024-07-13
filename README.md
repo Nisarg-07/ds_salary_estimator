@@ -37,5 +37,23 @@ With each job, we got the following: <br>
 
 ---
 
+## Data Cleaning 
+After scrapping the data, I cleaned it up so that it can be useful for traing the predictive model.
+<br>
+I made the following changes and created the following variables. <br>
+* Parsed numeric data out of salary.
+* Made columns for employer provided salary and hourly wages.
+* Parsed ratings from the company name.
+* Made a sperate column for company state.
+* Created a column to identify if the job is at the company's headquarters.
+* Created a column named company age from the founded year(2024 - Founded year).
+* Made a column for different skills which were listed in the job descrption.
+   * Python
+   * R
+   * Excel
+   * AWS
+   * Spark
+* Created columns for Job Title, Seniority, and Job Description length.
+
 
 
