@@ -9,4 +9,12 @@
 
 - Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
 ---
+## Code and resourses used
+**Python Version:** 3.9 <br>
+**Libraries:** Pandas, Numpy,Sklearn, Matplotlib, Seaborn, selenium, Json, Pickle <br>
+**Scrapper Github:** https://github.com/arapfaik/scraping-glassdoor-selenium <br>
+**Scrapper Article:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905 <br>
+
+---
+
 
