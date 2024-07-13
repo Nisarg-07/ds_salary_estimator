@@ -8,7 +8,7 @@
 - Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark.
 
 - Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
-
+---
 ## Code and resources used 
 **Python Version:** 3.9
 **Libraries Used:** Pandas, Numpy, Sklearn, matplotlib, seaborn, selenium, json, pickle
