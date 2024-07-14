@@ -104,7 +104,7 @@ The Random Forest model far outperformed the other approaches on the test and va
 - **Lasso Regression:** MAE = 19.67
 ---
 ## Huge thanks to
-**ken Jee :** https://github.com/PlayingNumbers
+**Ken Jee :** https://github.com/PlayingNumbers
 
 Nisarg Patel © 2024
 
