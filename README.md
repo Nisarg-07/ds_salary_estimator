@@ -70,12 +70,47 @@ Below are the few highlights from my observation.
 <br>
 <img width="219" alt="PositionXAvg_salary" src="https://github.com/user-attachments/assets/5e4a4b00-3bab-4614-9e00-1aa8095490c3"> <br>
 <br>
-- The above table shows **average salary** for **various positions** in the data science field.<br>
+- The above table shows average salary for various positions in the data science field. <br>
+
 <br>
 
 ![CityXJobs_count](https://github.com/user-attachments/assets/cb2e1ef0-6a8a-4a74-87be-1dc51bd96642)
+* The above bar graph displays the number of job present in each state and it can be seen that the **California** has **highest number** of jobs in the **Data science field**.
 
 ![heatmap](https://github.com/user-attachments/assets/f31c3db5-39a7-46f8-8091-7a1e79bbf5b8)
+* The above Heatmap it can be seen that the **strong positive correlation** is between company **age** and **descriptionlength** and **age** of the company and **Number of competitors**.
+* Also there is a **positive corrrelation** between **average Salary** and **decription length** and **average Salary** and **Number of competitors**.
+* Whereas, a **strong negative correlation** between **ratings** and **description length**.
+
+---
+## Model Building
+
+First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.<br>
+<br>
+I tried three different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.<br>
+<br>
+I tried three different models:
+
+* **Multiple Linear Regression** – Baseline for the model.
+* **Lasso Regression** – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
+* **Random Forest** – Again, with the sparsity associated with the data, I thought that this would be a good fit.
+
+---
+## Model Performance 
+
+The Random Forest model far outperformed the other approaches on the test and validation sets.
+- **Random Forest :** MAE = 11.22
+- **Linear Regression:** MAE = 18.86
+- **Lasso Regression:** MAE = 19.67
+---
+## Huge thanks to
+**ken Jee :** https://github.com/PlayingNumbers
+
+Nisarg Patel © 2024
+
+
+
+
 
 
 
