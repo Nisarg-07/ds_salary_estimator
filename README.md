@@ -55,5 +55,29 @@ I made the following changes and created the following variables. <br>
    * Spark
 * Created columns for Job Title, Seniority, and Job Description length.
 
+---
+## EDA
+<br>
+I looked at the distribution of data and the value counts for various categorical variables. 
+<br>
+
+Below are the few highlights from my observation.
+<br>
+
+<img width="219" alt="StateXavg_salary" src="https://github.com/user-attachments/assets/ad8b6f85-a655-4b71-b921-ee5a5f3549cf"> <br>
+- From the above table it can be said that avgerage Data scientist's salary in the **California** is the **highest**<br> 
+- However it is bit odd that the **New york** is in the **Last** Place in top 8 highest paying states. <br>
+<br>
+<img width="219" alt="PositionXAvg_salary" src="https://github.com/user-attachments/assets/5e4a4b00-3bab-4614-9e00-1aa8095490c3"> <br>
+<br>
+- The above table shows **average salary** for **various positions** in the data science field.<br>
+<br>
+
+![CityXJobs_count](https://github.com/user-attachments/assets/cb2e1ef0-6a8a-4a74-87be-1dc51bd96642)
+
+![heatmap](https://github.com/user-attachments/assets/f31c3db5-39a7-46f8-8091-7a1e79bbf5b8)
+
+
+
 
 
